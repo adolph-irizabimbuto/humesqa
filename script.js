@@ -13,11 +13,11 @@ function sendEmail(params){
     console.log(emailName)
     const emails = {
         "Josh Hayes": "josh.hayes@lafargeholcim.com",
-        "Jigar Kerai": "jigar.kerai.ext@lafargeholcim.com",
+        "Jigar Kerai": "jigar.kerai@lafargeholcim.com",
         "Jon Cross": "john.cross@lafargeholcim.com",
-        "Pheobe" : "adolph_12@hotmail.com.au",
-        "Phil Hayes" : "phil.hayes@lafargeholcim.com",
-        "Michael Dowton" : "michael.downton@lafargeholcim.com"
+        "Pheobe" : "adolph.irizabimbuto.ext@lafargeholcim.com",
+        "Phil Hayes" : "gerrard.hayes@lafargeholcim.com",
+        "Michael Dowton" : "michael.dowton@lafargeholcim.com"
     }
     const tempParams= {
         headName: emailName,
