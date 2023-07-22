@@ -12,12 +12,7 @@ function sendEmail(params){
     let bedNumberText = bedIndex.options[bedIndex.selectedIndex].text
     console.log(emailName)
     const emails = {
-        "Josh Hayes": "josh.hayes@lafargeholcim.com",
-        "Jigar Kerai": "jigar.kerai.ext@lafargeholcim.com",
-        "Jon Cross": "john.cross@lafargeholcim.com",
-        "Pheobe" : "adolph_12@hotmail.com.au",
-        "Phil Hayes" : "phil.hayes@lafargeholcim.com",
-        "Michael Dowton" : "michael.downton@lafargeholcim.com"
+      emails = emails;
     }
     const tempParams= {
         headName: emailName,
@@ -30,7 +25,7 @@ function sendEmail(params){
 
     };
 
-   emailjs.send('service_xbregff', 'template_fi6t94n', tempParams)
+   emailjs.send('api_key', 'template_api', tempParams)
     .then(function(res) {
         console.log("succefully sent", res.status)
     });
